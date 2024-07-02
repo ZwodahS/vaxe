@@ -35,7 +35,7 @@ syn match haxeConditional "\<\#\@<!\(if\|else\)\>"
 syn keyword haxeConstant null never super this default get set
 syn keyword haxeFunction function __dollar__new new
 syn match haxeFunction "\<__[^_]\+__\>"
-syn keyword haxeKeyword untyped cast continue break return trace var
+syn keyword haxeKeyword untyped cast continue break return trace var is
 syn match haxeKeyword "\$type"
 
 syn match haxeError "\<#\@<!elseif\>"
